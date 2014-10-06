@@ -1,0 +1,1 @@
+﻿Napište program, který bude na přípravku realizovat měřič periody. Kmitočet vstupního obdélníkového signálu se střídou 1:1, který bude přítomen na pinech RF4/RP10 a RF5/RP17, změříte s využitím čítačových struktur a hodnotu kmitočtu včetně jednotky zobrazíte na displeji (zobrazujte dobu periody a kmitočtu, kmitočet vypočtěte jako převrácenou hodnotu periody).

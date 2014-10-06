@@ -1,0 +1,10 @@
+﻿Napište program, který bude na přípravku realizovat měřič kmitočtu. Kmitočet vstupního obdélníkového signálu se střídou 1:1, který bude přítomen na pinech RF4/RP10 a RF5/RP17, změříte s využitím čítačových struktur a hodnotu kmitočtu včetně jednotky zobrazíte na displeji.
+
+Použijte čítače/časovače 2 a 3
+Čítač/časovač 2 konfigurujte jako čítač s externím vstupem, předděličku nastavte 1:1
+Nastudujte konfiguraci portů pro alternativní funkce a určete, jaký registr a jak nastavit, aby na vstup čítače T2CK byl přiveden signál z pinu RF5/RP17 (výstup generátoru)
+Čítač/časovač 3 nakonfigurujte jako časovač (zdroj hodinového signálu bude FCY = 16MHz)
+Pro čítač/časovač 3 určete předděličku a hodnotu registru PR3 tak, aby přetekl každou milisekundu
+Do programu zařaďte obsluhu přerušení od čítače/časovače 3, nastavte prioritu přerušení a povolte přerušení
+V obsluze přerušení zastavte čítač/časovač 2 i 3, přečtěte hodnotu čítače/časovače 2 a uložte ji do proměnné freq, vynulujte oba čítače/časovače a znovu spusťte.
+V hlavním programu čtěte proměnnou freq, přepočítejte hodnotu a vytiskněte výsledek.

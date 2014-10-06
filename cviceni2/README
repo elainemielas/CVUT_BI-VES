@@ -1,0 +1,4 @@
+﻿S pomocí knihovny VES napište funkce, které vytisknou na displeji celé číslo v rozsahu datového typu char int, long dekadicky a hexadecimálně, a číslo typu float. Výpis musí být možný na jakoukoliv pozici v terminálovém režimu. Můžete použít funkci snprintf.
+S pomocí funkce put_pixel napište funkci void line(int x1, y1, x2, y2), která nakreslí čáru.
+Funkci line použijte pro vytvoření funkce pro nakreslení polygonu void poly(int n, int* coord), kde n je počet vrcholů polygonu a coord je pole celých čísel reprezentující po řadě souřadnice bodů x0, y0, x1, y1, …
+Vytvořte jakoukoliv demo aplikaci, ve které využijete maximum funkcí knihovny, včetně grafických funkcí. Obsah aplikace je plně na vás.

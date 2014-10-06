@@ -1,0 +1,9 @@
+﻿Napište program, který bude řídit jas tříbarevné LED diody po složkách R, G, B tak, aby se dala nastavit libovolná barva. Jas jednotlivých složek řiďte pulzně šířkovou modulací a aplikaci ovládejte dotykovou klávesnicí. Pro generování pulzně šířkové modulace použijte komparační obvody (output compare). Úroveň jednotlivých složek vypisujte na displeji.
+
+Pro generování PWM použijte obvody output compare. Pro každou LED diodu bude jiný, užijte OC1, OC2, OC3. Všechny OC obvody budou navázány na časovač 2. Obvody OC1-3 budou mít T2 za zdroj hodinového signálu i synchronizaci.
+
+Použijte dvanáctibitovou PWM, tj. střídu PWM signálu budete měnit v rozsahu 0-4095. Vytvoření 12 bitové PWM je třeba zapsat hodnotu 4095 do registru PR2 a také do registru OC1RS,OC2RS,OC3RS. Poměr střídy řídíme hodnotou v registru OC1R, OC2R, OC3R.
+
+Hodnotu předděličky u časovače T2 nastavte na minimální hodnotu.
+
+Pro realizaci aplikace použijte funkce pro čtení dotykové klávesnice.

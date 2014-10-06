@@ -1,0 +1,9 @@
+﻿Na přípravku realizujte zjednodušený semafor, který bude v pravidelných intervalech měnit barvu tříbarevné LED takto
+Červená
+Oranžová
+Zelená
+Oranžová
+Červená
+Interval změny barev si zvolte v rozsahu 1 až 5s. Pro realizaci zpoždění použijte zpožďovací smyčku.
+Úkolem zpožďovací smyčky je časově oddálit dvě programové údálosti metodou aktivního čekání. Často je realizována kalibrovanou smyčkou a předem daným počtem cyklů. Jako zpožďovací smyčka může například sloužit for cyklus.
+Lze vyřešit i tak, že napíšeme cyklus v assembleru. Spočtěte délku trvání smyčky a upravte ji tak, aby trvala přesně 100us.

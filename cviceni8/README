@@ -1,0 +1,1 @@
+﻿Napište program, který bude měřit v pravidelných intervalech napětí na potenciometru a hodnotu zobrazovat na displeji. Napětí zobrazujte na displeji velkými číslicemi v rozsahu 0-3.3V. Dále aplikaci upravte tak, že napětí budete zobrazovat graficky jako na osciloskopu.
